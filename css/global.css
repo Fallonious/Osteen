@@ -1,6 +1,4 @@
-/*Place site styles below!
 
-Happy Coding! */
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Bree+Serif);
 
 body {
@@ -50,7 +48,7 @@ nav li a:hover {
 
 #brand {
   text-indent: -9000px;
-  background: url(../images/cojorado.png) no-repeat top left;
+  color: #1F4C1C;
   height: 60px;
   width: 60px;
   float: left;
@@ -59,6 +57,9 @@ nav li a:hover {
 .container {
   width: 1024px;
   margin: 0 auto;
+  color: #1F4C1C;
+
+
 }
 .container .plain {
   color: #080808;
@@ -67,7 +68,7 @@ nav li a:hover {
 }
 
 #hero {
-  background: url(../images/CDAcopy.JPG) no-repeat top center;
+  background: url(../images/MissionaryRidgePorchAddition.JPG) no-repeat top center;
   text-align: center;
   color: #fafafa;
   padding: 25px 0;
