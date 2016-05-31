@@ -54,6 +54,16 @@ nav li a:hover {
   float: left;
   margin: 5px;
 }
+
+#masthead{
+  background-color:green;
+  height:220px;
+}
+#mastheadHero{
+  color: white;
+  font-family:verdana;
+}
+
 .container {
   width: 1024px;
   margin: 0 auto;
@@ -72,11 +82,11 @@ nav li a:hover {
   text-align: center;
   color: #fafafa;
   padding: 25px 0;
-  height: 350px;
+  height: 250px;
   background-size: cover;
 }
 
-#heroabout {
+#heroAbout {
   background: url(../images/MPbikelouhorizontal.JPG) no-repeat top center;
   text-align: center;
   /*color: #585858;*/
@@ -85,7 +95,7 @@ nav li a:hover {
   background-size: cover;
 }
 
-#herofitness {
+#heroNewConstruction {
   background: url(../images/MPIMLou4thSt.png) no-repeat top center;
   text-align: center;
   /*color: #585858;*/
@@ -93,7 +103,7 @@ nav li a:hover {
   height: 250px;
   background-size: cover;
 }
-#heroawa {
+#heroReno {
   background: url(../images/awabanner.png) no-repeat top center;
   text-align: center;
   /*color: #585858;*/
@@ -240,8 +250,9 @@ position: relative;
 
 
 }*/
-#social {
-  background: #CCCCCC;
+#social-links{
+  display: inline-block;
+  background-color: ##009933;
   color: #fafafa;
   padding: 25px 0;
   overflow: hidden;
@@ -253,6 +264,7 @@ position: relative;
 #social ul {
   clear:left;
   float:left;
+  display: inline;
   list-style:none;
   margin:0;
   padding:0;
@@ -261,7 +273,7 @@ position: relative;
   text-align:center;
 }
 #social li {
-  display:block;
+  display:inline-block;
   float:left;
   list-style:none;
   margin:0;
